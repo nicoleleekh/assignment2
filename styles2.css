@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+   font-family: zh-cn;
+   src: url(zh-cn.ttf);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 5%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 9px 15px;
+  text-decoration: none;
+  font-family: Sans-serif;
+}
+
+li a.active {
+  background-color: #755e41;
+  color: white;
+  font-family: Sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #9c7c54;
+  color: white;
+}
+
+h1   {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: zh-cn;
+  font-size: 60px;
+  color: white;
+  background-color: #7D6446;
+  text-shadow: 5px 2px black;
+}
+
+h2   {
+  font-family: zh-cn;
+  color: black}
+
+h4   {
+  padding-left: 30px;
+  font-family: zh-cn;
+  color: black}
+
+p    {
+  font-family: Verdana;
+  color: dark blue;
+  padding: 15px
+}
+
+table, th, td {
+  border:1px solid black;
+  padding: 15px;
+  font-family: Sans-Serif;
+
+<audio autoplay loop controls id="playAudio">
+  <source src="genshinopening.mp3">
+</audio>
